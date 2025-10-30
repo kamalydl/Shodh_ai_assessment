@@ -33,19 +33,19 @@
   6.Offline RL setup, training, and evaluation
 
 5.Notebook structure & how to run individual sections:
- To reproduce only the DL experiment:
+ 1.To reproduce only the DL experiment:
   Run cells through the end of "Feature engineering".
   Run the DL model training section.
- To reproduce only RL/OPE:
+ 2.To reproduce only RL/OPE:
   Run dataset creation and anything required for offline RL dataset (MDPDataset).
   Run the d3rlpy section.
  
 6.Methodology :
- Data Preprocessing :
+ 1.Data Preprocessing :
   Missing values handled using SimpleImputer.
   Features scaled using StandardScaler to improve model convergence.
   Train-test split ensures balanced evaluation.
- Supervised Learning Model :
+ 2.Supervised Learning Model :
   Implemented using TensorFlow/Keras with a simple fully connected neural network.
   Optimized with EarlyStopping to avoid overfitting.
  Metrics evaluated:
@@ -53,20 +53,20 @@
   ROC-AUC Score
   F1 Score
   Confusion Matrix
- Offline Reinforcement Learning Model :
+ 3.Offline Reinforcement Learning Model :
   Implemented using d3rlpy with the Conservative Q-Learning (CQL) algorithm.
   Dataset transformed into an MDP format (MDPDataset) for offline RL training.
   Policy evaluation was performed using Fitted Q Evaluation (FQE) to estimate the Estimated Policy Value (EPV).
- Key Takeaway:
+ 4.Key Takeaway:
   Supervised models are better for prediction tasks, while RL models shine in decision-making tasks.
   The contrast in learning paradigms reveals how different algorithms perceive the same problem structure.
 
 7.Evaluation Metrics:
- Supervised Model:
+ 1.Supervised Model:
   Evaluated using F1-score and ROC-AUC to balance between precision and recall.
- RL Model:
+ 2.RL Model:
   Evaluated using the Estimated Policy Value (EPV), which measures the expected return achieved under the learned policy.
- Visualization using Matplotlib and Seaborn helps interpret:
+ 3.Visualization using Matplotlib and Seaborn helps interpret:
   Confusion matrices
   Reward convergence
 
