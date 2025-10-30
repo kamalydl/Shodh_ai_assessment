@@ -1,4 +1,5 @@
 # Shodh_ai_assessment
+
 1.Overview:
  This project explores and compares Supervised Learning and Offline Reinforcement Learning (RL) paradigms for predictive modeling using real-world data.
  The main objective is to understand how each learning method behaves, why certain results occur, and what trade-offs exist between classical supervised approaches  and RL-based decision optimization.
