@@ -29,11 +29,11 @@
 
 #PROJECT STRUCTURE:
 
- Shodh_ai.ipynb       # Main Jupyter notebook (Colab)
+ Shodh_ai.ipynb       -> Main Jupyter notebook (Colab)
  
- requirements.txt     # Python dependencies
+ requirements.txt     -> Python dependencies
  
- README.md            # Project documentation
+ README.md            -> Project documentation
 
 #KEY FILES AND WHERE TO LOOK:
 
