@@ -9,7 +9,7 @@
 
  Clone the repository :
  
-  git clone https://github.com/kamalyld/Shodh_ai_assessment.git
+  git clone https://github.com/kamalydl/Shodh_ai_assessment.git
   cd Shodh_ai_assessment
   
  Install dependencies:
@@ -25,7 +25,7 @@
  Or you can just open this directly on colab :
  
   You can open and run this notebook directly in Google Colab:
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kamalyld/Shodh_ai_assessment/blob/main/Shodh_ai.ipynb)
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kamalydl/Shodh_ai_assessment/blob/main/Shodh_ai.ipynb)
 
 #PROJECT STRUCTURE:
 
