@@ -25,12 +25,12 @@
 
 4.Key files and where to look:
  Shodh_ai.ipynb — main notebook. Follow thiese sections and run them in the below order:
-  Setup & dependencies
-  Data loading & cleaning
-  Exploratory Data Analysis (EDA)
-  Feature engineering
-  DL model definition, training, and evaluation
-  Offline RL setup, training, and evaluation
+  1.Setup & dependencies
+  2.Data loading & cleaning
+  3.Exploratory Data Analysis (EDA)
+  4.Feature engineering
+  5.DL model definition, training, and evaluation
+  6.Offline RL setup, training, and evaluation
 
 5.Notebook structure & how to run individual sections:
  To reproduce only the DL experiment:
