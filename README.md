@@ -1,11 +1,11 @@
 # Shodh_ai_assessment
 
-#Overview:
+#OVERVIEW:
 
  This project explores and compares Supervised Learning and Offline Reinforcement Learning (RL) paradigms for predictive modeling using real-world data.
  The main objective is to understand how each learning method behaves, why certain results occur, and what trade-offs exist between classical supervised approaches  and RL-based decision optimization.
 
-#Environment Setup:
+#ENVIRONMENT SETUP:
 
  Clone the repository :
  
@@ -27,13 +27,15 @@
   You can open and run this notebook directly in Google Colab:
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kamalyld/Shodh_ai_assessment/blob/main/Shodh_ai.ipynb)
 
-#Project Structure :
+#PROJECT STRUCTURE:
 
-├── Shodh_ai.ipynb       # Main Jupyter notebook (Colab)
-├── requirements.txt     # Python dependencies
-└── README.md            # Project documentation
+ Shodh_ai.ipynb       # Main Jupyter notebook (Colab)
+ 
+ requirements.txt     # Python dependencies
+ 
+ README.md            # Project documentation
 
-#Key files and where to look:
+#KEY FILES AND WHERE TO LOOK:
 
  Shodh_ai.ipynb — main notebook. Follow thiese sections and run them in the below order:
  
@@ -49,7 +51,7 @@
   
   6.Offline RL setup, training, and evaluation
 
-#Notebook structure & how to run individual sections:
+#NOTEBOOK STRUCTURE AND HOW TO RUN INDUVIDUAL CODES:
 
  1.To reproduce only the DL experiment:
  
@@ -63,7 +65,7 @@
   
   Run the d3rlpy section.
  
-#Methodology :
+#METHODOLOGY:
 
  1.Data Preprocessing :
   Missing values handled using SimpleImputer.
@@ -102,7 +104,7 @@
   
   The contrast in learning paradigms reveals how different algorithms perceive the same problem structure.
 
-#Evaluation Metrics:
+#EVALUATION METRICS:
 
  1.Supervised Model:
  
@@ -118,19 +120,19 @@
   
   Reward convergence
 
- #Results Summary:
+ #RESULTS SUMMARY:
  
  The supervised model demonstrated strong generalization on static test data.
  The RL model, though more complex, offered a deeper understanding of long-term outcome optimization.
  Both approaches complement each other,supervised learning provides accurate state estimation, while RL provides adaptive decision logic.
 
-#Key Insights:
+#KEY INSIGHTS:
 
  Offline RL can effectively operate without online exploration, leveraging logged datasets.
  Deep Neural Networks (DNNs) serve as powerful function approximators for both paradigms.
  The why behind RL performance differences lies in its reward-driven optimization, not direct error minimization.
 
-#Future Improvements:
+#FUTURE IMPROVEMENTS:
 
  Integrate hyperparameter tuning with Optuna or Ray Tune.
  Compare CQL with other RL algorithms (e.g., BCQ, TD3+BC).
